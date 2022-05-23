@@ -1,0 +1,108 @@
+.top_menu {
+    background-color: #20d3c2;
+    color: #ffffff;
+    padding: 16px;
+
+}
+    .top_menu .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top_menu ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        margin: 0;
+    }
+        .top_menu ul > li {
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+
+        .top_menu .site_settings ul > li:first-child {
+            margin-left: 0;
+        }
+        .top_menu .social_media ul > li:last-child {
+            margin-right: 0;
+        }
+
+    .top_menu .social_media i {
+        font-size: 1.3rem;
+    }
+
+
+.menu {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+    .menu .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu .logo {
+        flex: 1;
+    }
+        .menu .logo img {
+            height: 2rem;
+        }
+
+    .menu .searchbox {
+        flex: 2;
+        height: 46px;
+        width: 100%;
+        position: relative;
+    }
+        .menu .searchbox input {
+            position: absolute;
+            top: 0;
+            left: 0;          
+            border: 1px solid #e3e3e3;
+            height: 100%;
+            width: 100%;
+            border-radius: 25px;
+            padding-left: 20px;
+            outline: none;
+        }
+
+        .menu .searchbox .searchbox-icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #20d3c2;
+            color: #ffffff;
+            height: 100%;
+            width: 50px;
+            line-height: 46px;
+            font-size: 1.2rem;
+            text-align: center;
+            border-radius: 0 25px 25px 0;
+        }
+
+    .menu .user_settings {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .menu .user_settings ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        margin: 0;
+    }
+        .menu .user_settings ul > li {
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        .menu .user_settings ul > li:last-child {
+            margin-right: 0;
+        }
+        .menu .user_settings ul > li i {
+            font-size: 1.2rem;
+            margin-right: 4px;
+        }

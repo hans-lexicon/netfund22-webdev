@@ -1,0 +1,54 @@
+/* 
+    skalor
+    ---------------------
+    rem, em, px, %, vh, vw, pt 
+*/
+
+#topmenu {
+    background-color: #20d3c2;
+    color: #ecfefd;
+}
+
+#topmenu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topmenu .social {
+    font-size: 1.3rem;
+}
+
+#topmenu .social i {
+    margin-left: 1rem;
+}
+
+#topmenu .pagesettings {
+
+}
+
+#topmenu .pagesettings ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 1rem;
+}
+#topmenu .pagesettings ul > li {
+    margin-right: 3rem;
+}
+
+#topmenu a {
+    color: #ecfefd;
+}
+#topmenu a:hover {
+    color: #148b80;
+}
+
+a {
+    color: #20d3c2;
+    text-decoration: none;
+}
+a:hover {
+    color: #148b80;
+    text-decoration: underline;
+}
