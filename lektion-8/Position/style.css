@@ -1,0 +1,57 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grandparent {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#parent {
+    background-color: white;
+    border: 1px solid gray;
+    height: 400px;
+    width: 400px;
+    position: relative;            /* en position på ett parent-element som child-element måste rätta sig efter */
+    z-index: -1;                    /* talar om i vilken nivå ett element ligger i. Ligger den framför eller ligger den bakom */
+}
+
+#child-1 {
+    position: static;               /* standard position - dvs den är där den är */
+    position: relative;             /* relativ till sin parent och reserverar utrymmet till sig själv */
+    position: absolute;             /* frikopplad från resten av flödet och reserverar inte något utrymme och är bara relaterad till sin parent eller grandparent som är relativ */
+    position: fixed;                /* fixerad vid punkten 0,0 på skärmen och kan endast flyttas med hjälp av left, top, right, bottom */
+    position: sticky;               /* fixerad till parent försvinner från viewport då hoppas elementet in i flödet igen och blir sedan att försvinna */
+
+    top: 20px; left: 20px;
+    /* top: 20px; right: 20px; */
+    /* bottom: 20px; right: 20px; */
+    /* bottom: 20px; left:20px; */
+
+    z-index: -1;                     /* talar om i vilken nivå ett element ligger i. Ligger den framför eller ligger den bakom */
+}
+
+#child-2 {
+    background-color: lightblue;
+}
+
+
+
+/* Postion Fixed/Sticky Menu */
+#menu-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: lightblue;
+
+    width: 100%;
+    position: fixed;
+}

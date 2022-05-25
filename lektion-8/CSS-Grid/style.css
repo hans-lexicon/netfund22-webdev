@@ -1,0 +1,54 @@
+.box {
+    padding: 1rem;  /* 1rem = 16px eller den font-size som är satt i html, 16px är standard */
+    text-align: center;
+}
+
+.grid {
+    display: grid;  
+    
+    /*
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: repeat(6, 1fr 2fr 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    */
+    /* 
+    grid-template-rows: 100px 200px 300px;
+    grid-template-rows: 1fr 2fr 1fr; 
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    */
+
+    /* 
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+    */
+
+    /* 
+    grid-template-areas: "th th th"
+                         "h h h"
+                         "m c c"
+                         "f f f"
+                         "ff ff ff"; 
+
+    grid-template-areas: "header header"
+                         "menu content"
+                         "footer footer"; 
+    */
+
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+#box-1 { 
+    grid-column: 1 / -1;
+    /* grid-area: header; */
+    background-color: lightsteelblue; 
+}
+#box-2 { grid-column: 1; background-color: lightseagreen; }
+#box-3 { background-color: lightcoral; }
+#box-4 { background-color: lightpink; }
+#box-5 { background-color: lightsalmon; }
+#box-6 { background-color: lightgray; }

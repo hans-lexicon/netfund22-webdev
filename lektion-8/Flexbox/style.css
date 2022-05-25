@@ -1,0 +1,28 @@
+div {
+    text-align: center;
+    border: 1px solid #b4b4b4;
+}
+
+#parent {
+    padding: 10px 0px;
+    display: flex;                      /* gör så att alla child-element blir flexade och kan ändras */
+
+    justify-content: flex-start;        /* vänster - standard */
+    justify-content: flex-end;          /* höger */
+    justify-content: center;            /* mitten */
+    justify-content: space-around;      /* placeras ut till kanterna med mellanrum som är lika stort mellan alla objekten */
+    justify-content: space-evenly;      /* placeras ut till kanterna med mellanrum som är lika stort mellan alla objekten */
+    justify-content: space-between;     /* placeras ut till kanterna med mellanrum i mitten */
+
+    align-items: stretch;               /* tar upp hela utrymmet från topp till botten - standard */
+    align-items: start;                 /* placeras längst upp */
+    align-items: end;                   /* placeras längst ner */
+    align-items: center;                /* placeras i mitten */
+}
+
+#child-1 { 
+    flex: 1;                            /* hur många delar ska elementet ta upp 1/4 i detta fall då 1+2+1=4 */
+    order: 1;                           /* hur ska ordningen se ut. Går att ändra oavsett hur HTML-strukturen ser ut, bara det är inom en display:flex; */
+}
+#child-2 { flex: 2; order: 2; }
+#child-3 { flex: 1; order: 3; }
