@@ -1,0 +1,24 @@
+#grand-parent {
+    position: relative;
+}
+
+#parent {
+    margin: 2rem;
+    position: relative;
+    height: 400px;
+    width: 600px;
+}
+
+.child {
+    position: absolute;
+    margin: 2rem;
+    height: 100px;
+    width: 100px;
+    background-color: azure;
+}
+
+#child-1 {
+    z-index: 1;
+    top: 50px;
+    left:50px;
+}

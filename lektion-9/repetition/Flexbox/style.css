@@ -1,0 +1,17 @@
+.in-middle {
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   height: 100vh;
+}
+
+/* 
+    justify-content: center;            placerar ett objekt horisontellt i mitten
+    justify-content: start;             placerar ett objekt horisontellt till vänster 
+    justify-content: end;               placerar ett objekt horisontellt till höger
+    justify-content: space-between      placerar två objekt horisontellt till vänster och höger
+
+    align-items: center;                placerar ett objekt vertikalt i mitten
+    align-items: top;                   placerar ett objekt vertikalt till toppen
+    align-items: end;                   placerar ett objekt vertikalt till botten
+*/
