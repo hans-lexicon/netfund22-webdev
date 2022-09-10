@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Meenakshi/OneDrive/Desktop/GitHub/netfund22-webdev/Project1/Lektion-1/BlazorApp/Pages/Activities.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aXZpdGllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Meenakshi/OneDrive/Desktop/GitHub/netfund22-webdev/Project1/Lektion-1/BlazorApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,8 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Meenakshi/OneDrive/Desktop/GitHub/netfund22-webdev/Project1/Lektion-1/BlazorApp/Shared/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Meenakshi/OneDrive/Desktop/GitHub/netfund22-webdev/Project1/Lektion-1/BlazorApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Meenakshi/OneDrive/Desktop/GitHub/netfund22-webdev/Project1/Lektion-1/BlazorApp/Shared/TitleSection.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRpdGxlU2VjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Meenakshi/OneDrive/Desktop/GitHub/netfund22-webdev/Project1/Lektion-1/BlazorApp/_Imports.razor]

@@ -1,37 +1,7 @@
-﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+﻿@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500&display=swap');
 
-html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-h1:focus {
-    outline: none;
-}
-
-a, .btn-link {
-    color: #0071c1;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
-.content {
-    padding-top: 1.1rem;
-}
-
-.valid.modified:not([type=checkbox]) {
-    outline: 1px solid #26b050;
-}
-
-.invalid {
-    outline: 1px solid red;
-}
-
-.validation-message {
-    color: red;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 #blazor-error-ui {
@@ -61,4 +31,22 @@ a, .btn-link {
 
     .blazor-error-boundary::after {
         content: "An error has occurred."
+    }
+
+
+
+.title-section {
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+    .title-section h1 {
+        font-family: 'Play', sans-serif;
+        font-size: 2.2em;
+        font-weight: 500;
+    }
+
+    .title-section p {
+        font-size: 0.9em;
+        color: slategray;
     }
